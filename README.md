@@ -1,6 +1,6 @@
 # soap
 SOAP Request сервис слушает на порту 6767 и при передаче ИИН, выбирает из базы информацию, генерирует XML, отдает пользователю.
-Без авторизации.
+Без авторизации. Пакет spyne
 Пример запроса:
 
 <soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hey="spyne.soap">
